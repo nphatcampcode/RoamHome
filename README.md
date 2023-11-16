@@ -10,6 +10,10 @@ npm install nextjs
 
 npm run dev
 
+npm i prisma
+
+npx prisma generate
+
 ```
 
 Open: Localhost: 3000
