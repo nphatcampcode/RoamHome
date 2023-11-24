@@ -3,13 +3,12 @@
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 
-// import Categories from "./Categories";
+import Categories from "./Categories";
 import Container from "./Container";
 import Search from "./Search";
 import UserMenu from "./UserMenu";
 import { SafeUser } from "@/app/types";
-// import Search from "./Search";
-// import UserMenu from "./UserMenu";
+
 
 interface NavbarProps {
   currentUser?: SafeUser | null;
@@ -56,7 +55,7 @@ const Navbar: React.FC<NavbarProps> = ({
         </div>
       </Container>
     </div>
-    {/* {isMainPage && <Categories />} */}
+   <Categories />
   </div>
   );
 }
