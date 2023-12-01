@@ -45,6 +45,7 @@ npm i prisma
 
 npx prisma generate
 
+phát ăn cức
 ```
 
 
