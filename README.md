@@ -31,3 +31,20 @@ Features:
 - How to handle relations between Server and Child components!
 
 
+## Getting Started
+
+First, run the development server:
+
+```bash
+
+npm install nextjs
+
+npm run dev
+
+npm i prisma
+
+npx prisma generate
+
+```
+
+
